@@ -123,12 +123,9 @@ footer {
 
 .footer-content {
     padding: 6rem;
-}
-
-.footer-made-by {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .footer-text {
@@ -142,10 +139,9 @@ footer {
 }
 
 .footer-copyright {
-    text-align: center;
-    margin-top: 6rem;
-    color: var(--white);
+    margin-top: 3rem;
     font-style: italic;
+    color: var(--white);
 }
 
 
@@ -255,12 +251,9 @@ footer {
     
     .footer-content {
         padding: 6rem;
-    }
-    
-    .footer-made-by {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-around;
     }
     
     .footer-text {
@@ -274,9 +267,7 @@ footer {
     }
     
     .footer-copyright {
-        text-align: center;
-        margin-top: 6rem;
-        color: var(--white);
+        margin-top: 0rem;
         font-style: italic;
     }
 
