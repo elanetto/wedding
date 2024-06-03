@@ -1,0 +1,209 @@
+@import url('https://fonts.cdnfonts.com/css/jenna-sue');
+@import url('https://fonts.cdnfonts.com/css/barlow');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --green: #B9B375;
+    --white: #FFF;
+    --black: #000;
+    --darkgreen: #88813B;
+}
+
+.hidden-box-for-mini {
+    display: none;
+}
+
+header {
+    background-color: var(--white);
+    color: var(--black);
+    display: flex;
+    justify-content: space-around;
+    height: 7rem;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-left: 2rem;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    width: 100vw;
+    height: 100vw;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.picture-box {
+    width: 100vw;
+    height: 50rem;
+    background-image: url("assets/images/anette_og_didrik.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 30rem;
+    height: 25rem;
+    padding: 4rem;
+}
+
+/* This empty div helps the flexbox keep the text-div to the left of the bg image */
+.box-box {
+    width: 30rem;
+}
+
+.curly-font {
+    font-family: 'Jenna Sue', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.text-box p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.download-btn {
+    background-color: var(--green);
+    color: var(--white);
+    border: none;
+    border-radius: 6px;
+    padding: 1rem;
+    width: 285px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.btn-text:hover {
+    text-decoration: none;
+}
+
+.video-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+footer {
+    background-color: var(--green);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.footer-text {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-top: 4rem;
+}
+
+.footer-copyright {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+
+/* medium (iPad) */
+@media (min-width: 760px) {
+
+    .picture-box {
+        background-position: calc(100% + 100px) center;
+    }
+
+    .content-box {
+        margin: 0.2rem;
+        width: 400px;
+        margin-left: 2rem;
+    }
+
+}
+
+
+/* Small */
+@media (max-width: 540px) {
+
+    .hidden-box-for-mini {
+        display: flex;
+        flex-direction: column;
+        padding: 3rem;
+    }
+
+    .picture-box {
+        background-position: calc(100% + 60px) center;
+    }
+
+    .content-box {
+        display: none;
+    }
+
+    header {
+        flex-direction: column;
+        height: 10rem;
+    }
+
+    .logo {
+        background-color: #B9B375;
+        color: white;
+        width: 100vw;
+        height: 6rem;
+        font-size: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem;
+    }
+
+    .youtube {
+        width: 350px;
+    }
+
+    .box-box {
+        display: none;
+    }
+
+}
