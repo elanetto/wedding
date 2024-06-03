@@ -51,6 +51,7 @@ a:hover {
     width: 100vw;
     height: 50rem;
     background-image: url("assets/images/anette_og_didrik.jpeg");
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -141,22 +142,6 @@ footer {
 }
 
 
-/* medium (iPad) */
-@media (min-width: 760px) {
-
-    .picture-box {
-        background-position: calc(100% + 100px) center;
-    }
-
-    .content-box {
-        margin: 0.2rem;
-        width: 400px;
-        margin-left: 2rem;
-    }
-
-}
-
-
 /* Small */
 @media (max-width: 540px) {
 
@@ -199,11 +184,34 @@ footer {
     }
 
     .youtube {
-        width: 350px;
+        width: 340px;
     }
 
     .box-box {
         display: none;
+    }
+
+}
+
+/* medium (iPad) */
+@media (min-width: 760px) {
+
+    .picture-box {
+        background-position: calc(100% + 100px) center;
+    }
+
+    .content-box {
+        margin: 0.2rem;
+        width: 400px;
+        margin-left: 2rem;
+    }
+
+}
+
+/* big screen? */
+@media (min-width: 1000px) {
+    .picture-box {
+        background-position: center;
     }
 
 }
