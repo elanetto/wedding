@@ -9,7 +9,7 @@
 Before our wedding, we used this site to give practical information to our guests. And after the wedding, we now use this site as a place for our guests to find and download the photos from our wedding. This is a personal project.
 
 ## Tools and technology
-My portfolio is built with HTML and CSS, and it was first designed and planned in Figma.
+This project was built with HTML and CSS, and it was first designed and planned in Figma.
 ![image](https://github.com/elanetto/portfolio/blob/main/assets/images/readme/badges-html-figma-css.png?raw=true)
 
 ## Figma
