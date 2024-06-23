@@ -43,7 +43,7 @@ The more you know about programming, the easier it gets to build what you want -
 I could have put more thought into the design of the footer - b ut it is a practical one with practical links and information.
 
 ## Contact
-You can reach me at hei@anettetherese.no
+You can reach me at my email: hei@anettetherese.no
 
 Or, simply find me at [LinkedIn](https://www.linkedin.com/in/anettetherese/)
 
